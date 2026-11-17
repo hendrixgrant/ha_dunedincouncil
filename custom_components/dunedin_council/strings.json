@@ -1,0 +1,37 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Dunedin City Council",
+        "description": "Enter your street address (e.g. \"118 High Street\"). You'll pick the exact property on the next screen.",
+        "data": { "address": "Address" }
+      },
+      "pick": {
+        "title": "Choose your property",
+        "description": "For multi-unit properties, choose the entry matching your unit.",
+        "data": {
+          "property_id": "Property",
+          "tertiary": "I'm in the Tertiary (student) area – all bins collected weekly"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Couldn't reach the Dunedin City Council service. Try again shortly.",
+      "no_results": "No matching addresses found. Try fewer words, e.g. just the number and street."
+    },
+    "abort": {
+      "already_configured": "This property is already set up."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Dunedin City Council options",
+        "data": {
+          "tertiary": "Tertiary (student) area – all bins collected weekly",
+          "swap_weeks": "Swap blue/yellow weeks (use if fortnightly bins are showing the wrong week)"
+        }
+      }
+    }
+  }
+}
